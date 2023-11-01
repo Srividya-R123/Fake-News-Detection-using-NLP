@@ -2,7 +2,9 @@
 
 
 ## DATASET USED:  
- 	https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset Two datasets are used, one for true news and other for fake news.  
+ 	https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset 
+  
+  Two datasets are used, one for true news and other for fake news.  
 
 ## LIBRARIES USED:
 
