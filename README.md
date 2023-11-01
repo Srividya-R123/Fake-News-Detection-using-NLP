@@ -9,13 +9,13 @@
 ## LIBRARIES USED:
 
 For going on with our project we use and therefore import the following libraries.
-●	Tensorflow
-●	pandas
-●	numpy
-●	matplotlib.pyplo
-●	seaborn
-●	nltk
-●	re
+TensorFlow
+Pandas
+NumPy
+Matplotlib.pyplot
+Seaborn
+NLTK
+Regular Expressions (re)
 
 ## STEPS IMPLEMENTED:
 ### IMPORTING LIBRARIES
