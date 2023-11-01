@@ -19,10 +19,15 @@ For going on with our project we use and therefore import the following librarie
 
 ## STEPS IMPLEMENTED:
 ### IMPORTING LIBRARIES
- 
+ ![image](https://github.com/Srividya-R123/Fake-News-Detection-using-NLP/assets/120908524/e408ec9d-b965-4522-bc9a-4c628737123f)
+
 ### LOADING THE DATASET
  
- 
+ ![image](https://github.com/Srividya-R123/Fake-News-Detection-using-NLP/assets/120908524/a709c6e0-e3db-44e1-bb64-5e9255ae6646)
+![image](https://github.com/Srividya-R123/Fake-News-Detection-using-NLP/assets/120908524/53bf2dd5-e99c-45ff-a4bc-f35af0a77dae)
+![image](https://github.com/Srividya-R123/Fake-News-Detection-using-NLP/assets/120908524/18e748de-ca4f-4683-89bf-1d6c7a4299ec)
+![image](https://github.com/Srividya-R123/Fake-News-Detection-using-NLP/assets/120908524/61546aa4-c76c-4e00-ac2d-8bf9e9197718)
+
   
 ### PREPROCESSING:
 Preprocessing is essential to clean and prepare your text data for modeling. Common preprocessing steps include:
@@ -34,12 +39,17 @@ In EDA ,  we remove the unwanted columns and merge both the true and fake news d
 
 ### REMOVING NULL VALUES:
 (from the information above there is no null values so nothing is removed)
- 
+ ![image](https://github.com/Srividya-R123/Fake-News-Detection-using-NLP/assets/120908524/09e2112a-cd04-4b1c-a94e-9a86360a876f)
+
 ### CONVERTING ALL STRINGS TO LOWERCASE:
- 
+ ![image](https://github.com/Srividya-R123/Fake-News-Detection-using-NLP/assets/120908524/bfeffb6e-3efd-45c4-a7af-55e4c23ceea8)
+
 ### REMOVE SPECIAL CHARACTER, EXTRA SPACES AND ESCAPE CHARACTER
- 
+ ![image](https://github.com/Srividya-R123/Fake-News-Detection-using-NLP/assets/120908524/2566ee6e-fc33-4893-b599-9b5592d6885f)
+
 ### REMOVING STOP WORDS 
+![image](https://github.com/Srividya-R123/Fake-News-Detection-using-NLP/assets/120908524/0fc3826b-d420-4064-9750-9cccd6144737)
+
 ### TOKENIZATION:
  
 
