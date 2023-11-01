@@ -9,13 +9,13 @@
 ## LIBRARIES USED:
 
 For going on with our project we use and therefore import the following libraries.
-TensorFlow
-Pandas
-NumPy
-Matplotlib.pyplot
-Seaborn
-NLTK
-Regular Expressions (re)
+* TensorFlow
+* Pandas
+* NumPy
+* Matplotlib.pyplot
+* Seaborn
+* NLTK
+* Regular Expressions (re)
 
 ## STEPS IMPLEMENTED:
 ### IMPORTING LIBRARIES
@@ -26,10 +26,10 @@ Regular Expressions (re)
   
 ### PREPROCESSING:
 Preprocessing is essential to clean and prepare your text data for modeling. Common preprocessing steps include:
-●	Removing punctuation: This helps in normalizing the text and reducing dimensionality.
-●	Converting to lowercase: Ensures uniformity in text data.
-●	Lemmatization/Stemming: Reduces words to their base forms, e.g., "running" to "run," to handle variations of words.
-●	Removing stop words: Common words (e.g., "the," "and") that don't carry much information are removed.
+* Removing punctuation: This helps in normalizing the text and reducing dimensionality.
+* Converting to lowercase: Ensures uniformity in text data.
+* Lemmatization/Stemming: Reduces words to their base forms, e.g., "running" to "run," to handle variations of words.
+* Removing stop words: Common words (e.g., "the," "and") that don't carry much information are removed.
 In EDA ,  we remove the unwanted columns and merge both the true and fake news dataset into a single dataframe and add a target class column to indicate whether the news is real or fake.
 
 ### REMOVING NULL VALUES:
