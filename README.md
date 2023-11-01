@@ -1,10 +1,10 @@
-FAKE NEWS DETECTION USING NLP 
+# FAKE NEWS DETECTION USING NLP 
 
 
-DATASET USED:  
+## DATASET USED:  
  	https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset Two datasets are used, one for true news and other for fake news.  
 
-LIBRARIES USED:
+## LIBRARIES USED:
 
 For going on with our project we use and therefore import the following libraries.
 ●	Tensorflow
@@ -15,14 +15,14 @@ For going on with our project we use and therefore import the following librarie
 ●	nltk
 ●	re
 
-STEPS IMPLEMENTED:
-IMPORTING LIBRARIES
+## STEPS IMPLEMENTED:
+### IMPORTING LIBRARIES
  
-LOADING THE DATASET
+### LOADING THE DATASET
  
  
   
-PREPROCESSING:
+### PREPROCESSING:
 Preprocessing is essential to clean and prepare your text data for modeling. Common preprocessing steps include:
 ●	Removing punctuation: This helps in normalizing the text and reducing dimensionality.
 ●	Converting to lowercase: Ensures uniformity in text data.
@@ -30,32 +30,32 @@ Preprocessing is essential to clean and prepare your text data for modeling. Com
 ●	Removing stop words: Common words (e.g., "the," "and") that don't carry much information are removed.
 In EDA ,  we remove the unwanted columns and merge both the true and fake news dataset into a single dataframe and add a target class column to indicate whether the news is real or fake.
 
-REMOVING NULL VALUES:
+### REMOVING NULL VALUES:
 (from the information above there is no null values so nothing is removed)
  
-CONVERTING ALL STRINGS TO LOWERCASE:
+### CONVERTING ALL STRINGS TO LOWERCASE:
  
-REMOVE SPECIAL CHARACTER, EXTRA SPACES AND ESCAPE CHARACTER
+### REMOVE SPECIAL CHARACTER, EXTRA SPACES AND ESCAPE CHARACTER
  
-REMOVING STOP WORDS 
-TOKENIZATION:
- 
-
- LEMMATIZATION:
- 
-CREATE SENTENCES TO GET CLEAN TEXT AS INPUT FOR VECTORS
+### REMOVING STOP WORDS 
+### TOKENIZATION:
  
 
-PLOTTING THE WORDCLOUD FOR CLEAN TEXT
+ ### LEMMATIZATION:
  
- 
-PLOTTING THE NUMBER OF SAMPLES IN ‘SUBJECT’
+### CREATE SENTENCES TO GET CLEAN TEXT AS INPUT FOR VECTORS
  
 
-PREPARE DATA FOR THE MODEL. CONVERT LABEL INTO BINARY
+### PLOTTING THE WORDCLOUD FOR CLEAN TEXT
  
-SPLIT THE DATASET  
-FEATURE EXTRACTION
+ 
+### PLOTTING THE NUMBER OF SAMPLES IN ‘SUBJECT’
+ 
+
+### PREPARE DATA FOR THE MODEL. CONVERT LABEL INTO BINARY
+ 
+### SPLIT THE DATASET  
+### FEATURE EXTRACTION
 (words to vectors)
 Count vectorizer which considers the frequency of occurrence of a word across the corpus.
   
@@ -64,40 +64,40 @@ The term frequency is the number of times a term occurs in a document. Inverse d
  The product of these two terms gives tf-idf weight for a word in the corpus.
   
  
-CREATE WORD EMBEDDINGS WITH GLOVE FILE:   
-LOADING THE PRETRAINED WORD VECTORS
+### CREATE WORD EMBEDDINGS WITH GLOVE FILE:   
+### LOADING THE PRETRAINED WORD VECTORS
  
  
- CONVERT STRING INTO INTEGERS
+### CONVERT STRING INTO INTEGERS
 
  
- CREATE WORD-TO-INTEGER MAPPING
+### CREATE WORD-TO-INTEGER MAPPING
  
- EMBEDDING MATRIX  
- EMBEDDING LAYER
+ ### EMBEDDING MATRIX  
+  ### EMBEDDING LAYER
  
- CREATE AN LSTM NETWORK WITH A SINGLE LSTM
+  ### CREATE AN LSTM NETWORK WITH A SINGLE LSTM
   
   
-TRAIN THE MODEL
+ ### TRAIN THE MODEL
  
  
 
- ACCURACY
+  ### ACCURACY
   
  
  
-PREDICTION
+ ### PREDICTION
  
  
-CONFUSION MATRIX
+ ### CONFUSION MATRIX
  
  
 
-CLASSIFICATION REPORT
+ ### CLASSIFICATION REPORT
  
  
-ROC AUC PLOT 
+ ### ROC AUC PLOT 
  
 
 
@@ -106,12 +106,12 @@ ROC AUC PLOT
 
 
 
-MODEL PREDICTION
+ ### MODEL PREDICTION
   
  
-PREDICT TEXT AND TOKENIZED
+ ### PREDICT TEXT AND TOKENIZED
  
-PREDICTION OF THE MODEL
+ ### PREDICTION OF THE MODEL
  
  
 
